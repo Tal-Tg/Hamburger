@@ -1,0 +1,250 @@
+#myBody{
+    background-attachment: fixed;  
+    background-color: rgba(240, 187, 122, 0.788);
+    text-align: center;
+    
+}
+
+hr{
+    margin-top: 80px;
+    height: 2px;
+     background-color: rgba(19, 17, 17, 0.459);
+     border: none;
+
+    
+}
+
+#container-2{
+    width: 20%;
+    padding: 80px 1px;
+    display: inline-block;
+    text-align: center;
+
+}
+
+#Brade{
+    border: 10px solid rgb(236, 159, 58);
+    background-color:rgb(236, 159, 58);
+    border-radius: 15px;
+    color: rgb(236, 159, 58);
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+}
+
+#tomato{
+    
+    text-align: center;
+    color: tomato;
+    
+}
+
+#salad{
+    
+    text-align: center;
+    
+    color: green;
+   
+}
+
+#onion{
+    
+    text-align: center;
+    
+    color: gray;
+    
+}
+
+#reset{
+    
+    background-color:rgba(189, 29, 29, 0.295);
+    color: rgb(248, 244, 244);
+    border: 2px solid rgba(156, 149, 149, 0.486);
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+#amountButton, #insertAmount{
+    background-color:rgba(180, 66, 66, 0.295);
+    color: rgb(248, 244, 244);
+    border: 2px solid rgba(156, 149, 149, 0.486);
+    font-size: 20px;
+    
+}
+
+#addTomato, #addSalad, #addMeat, #addOnion, #addCheese{
+    background-color:rgba(189, 29, 29, 0.295);
+    color: rgb(248, 244, 244);
+    border: 1px solid rgba(156, 149, 149, 0.452);
+    font-size: 20px;
+    width: 3%;
+    display: inline-block;
+}
+
+#deleteTomato, #deleteSalad, #deleteMeat, #deleteOnion, #deleteCheese{
+    background-color:rgba(189, 29, 29, 0.295);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(156, 149, 149, 0.486);
+    margin-top: 50px;
+    font-size: 20px;
+    width: 3%;
+    display: inline-block;
+}
+
+#delete{
+    background-color:rgba(189, 29, 29, 0.295);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(241, 241, 241);
+    
+    
+}
+
+#addCola, #deleteCola{
+    background-color:rgba(189, 29, 29, 0.295);
+    color: rgb(255, 255, 255);
+    border: 1px solid rgba(156, 149, 149, 0.486);
+    margin-top: 50px;
+    font-size: 20px;
+    display: inline-block;
+    width: 14%;
+}
+
+#container-1{
+    text-align: center;
+    color: rgba(22, 22, 18, 0.616);
+    border-radius: 5px;
+    font-size: 30px;
+    
+
+}
+
+#imageCola{
+    text-align: center;
+    max-width: 80px;
+}
+
+#tomato2{
+    border: 1px solid rgba(70, 25, 25, 0.678);
+    border-radius: 8px;
+    background-color:rgb(250, 19, 19);
+    color: red;
+    font-size: 10px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#meat2{
+    text-align: center;
+    border: 5px solid rgb(70, 25, 25);
+    border-radius: 30px;
+    background-color:rgba(70, 25, 25, 0.986);
+    color:rgba(70, 25, 25, 0.904);
+    font-size: 20px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+    
+}
+
+#BradeTop{
+    border: 20px solid rgb(236, 159, 58);
+    background-color:rgb(236, 159, 58);
+    border-radius: 15px;
+    color: rgb(236, 159, 58);
+    margin: 0px;
+    padding-top: 15px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    
+    
+}
+
+#cheese2{
+    border: 2px solid rgba(70, 25, 25, 0.678);
+    border-radius: 10px;
+    background-color:yellow;
+    color: yellow;
+    font-size: 5px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+#salad2{
+    border: 2px solid rgba(70, 25, 25, 0.678);
+    font-size: 7px;
+    border: 2px solid rgba(70, 25, 25, 0.678);
+    border-radius: 10px;
+    background-color:green;
+    color: green;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#onion2{
+    border: 2px solid rgba(70, 25, 25, 0.678);
+    border-radius: 10px;
+    background-color:gray;
+    color: gray;
+    font-size: 8px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+#amount{
+    text-align: center;
+    text-decoration: underline;
+    margin-left: 0px;
+    
+}
+
+
+
+#detailsPayment{
+        width: 100%;
+      padding: 30px 30px;
+      margin: 1px 0;
+      display: inline-block;
+      border: 4px solid rgb(10, 10, 10);
+      border-radius: 8px;
+      box-sizing: border-box;
+      font: size 5px;
+      
+}
+
+#detailsPayment h2{
+    font-size: 20px;
+    color: rgba(49, 45, 45, 0.678);
+    text-decoration: underline;
+    text-align: left;
+    margin-top :-17px;
+}
+
+.meat{
+    font-size: 25px;
+    border-top-left-radius: 80px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+
+
+#talBurgerH1{
+    font-size:50px;
+    text-decoration: underline;
+    text-decoration-color: rgba(9, 10, 9, 0.308) ;
+    text-align: center;
+    margin-left: px;
+}
+
+#talBurgerH3{
+    
+    margin-left:  20px;
+}
