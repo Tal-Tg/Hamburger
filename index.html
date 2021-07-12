@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Talburger</title>
+    <link rel="icon" href="icon.jpeg">
+   <link rel="styleSheet" href="style.css">
+   <script src="index.js" async></script>
+</head>
+<body id="myBody"> 
+    <h1 id="talBurgerH1">Tal-Burger</h1>
+    <h3 id="talBurgerH3">edit your own burger, price for hamburger start from 20$
+    </h3>
+    <div id="container-1">
+        <button id="deleteTomato" onClick="replaceRemoveMethods(this.id)">-</button> Tomato 5$ <button id="addTomato"  onClick="replaceAddMethods(this.id)">+</button>
+    </div>
+    <div id="container-1">
+        <button id="deleteSalad" onClick="replaceRemoveMethods(this.id)">-</button> Salad 5$<button id="addSalad" onClick="replaceAddMethods(this.id)">+</button>
+    </div>
+    <div id="container-1">
+        <button id="deleteMeat" onClick="replaceRemoveMethods(this.id)">-</button> Meat 5$ <button id="addMeat" onClick="replaceAddMethods(this.id)">+</button>
+    </div>
+    <div id="container-1">
+        <button id="deleteOnion" onClick="replaceRemoveMethods(this.id)">-</button> Onion 5$ <button id="addOnion" onClick="replaceAddMethods(this.id)">+</button>
+    </div>
+    <div id="container-1">
+        <button id="deleteCheese" onClick="replaceRemoveMethods(this.id)">-</button> Cheese 5$ <button id="addCheese" onClick="replaceAddMethods(this.id)">+</button>
+    </div>
+        <hr id="hr">
+    <div id="container-2">
+        <div id="BradeTop">.</div>
+        <div id="tomato" >
+            
+        </div>
+        <div id="salad" >
+            
+        </div>
+
+        <div id="cheese">
+            
+        </div>
+
+        <div id="meat">
+            <div id="meat2" class="meat">.
+                
+            </div>
+        </div>
+       
+        
+        <div id="onion">
+            
+        </div>
+        
+        <div id="Brade">.</div>
+        <br>
+        <p id="container-1"><button id="deleteCola" onClick=" removeCola()">-</button> Coca-Cola 8$ <button id="addCola" onClick="addCola()">+</button></p>
+        <div id="Cola">
+
+        </div> 
+    
+        <h1>
+            <div id="container-3">
+                
+                <button id="amountButton" onClick="countAmountOrder()" > Checkout </button>
+                <button id="reset" onClick="resetPayment()" > reset payment </button>
+                <p id="amount" >total payment: <span id="insertAmount"> </span></p>
+                <div id="detailsEmpty">
+                
+                </div>
+            </div>
+    
+        </h1>
+    
+        
+</body>
+</html>
